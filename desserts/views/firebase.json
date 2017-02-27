@@ -1,0 +1,14 @@
+{
+  "database": {
+    "rules": "desserts_api"
+  },
+  "hosting": {
+    "public": "mmyerspublic",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
